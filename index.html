@@ -1,12 +1,65 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>My Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <title>My Website</title>
 </head>
+
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <span class="navbar-brand h1">cser</span>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+          <div class="row justify-content-center">
+              <div class="col mt-5">
+                <h2 class="text-center text-uppercase">My Projects</h2>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-10 mt-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Technologies</th>
+                            <th scope="col">Link</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>NoteList</td>
+                            <td>Android Studio, Kotlin, SQLite</td>
+                            <td><a href="https://play.google.com/store/apps/details?id=com.cser.notelist">Play Store</a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Fiction Reader</td>
+                            <td>Flutter, sqflite, web scraping</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+          </div>
+        
+      </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 
 </body>
-</html> 
+
+</html>
