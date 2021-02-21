@@ -41,7 +41,7 @@ a.nostyle:visited {
 }
 
 section {
-    padding: 5em;
+    padding: 4em;
 }
 
 .section-header {
@@ -60,14 +60,9 @@ section {
     padding-right: 1em;
 }
 
-.profile-item {
-    margin: 1em;
-}
 
-.profile-label {
-    font-weight: bold;
-}
-
-.profile-value {
-    text-align: end;
+@media (max-width : 370px) {
+    section {
+        padding: 1em;
+    }
 }
