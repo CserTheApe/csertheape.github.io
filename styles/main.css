@@ -61,7 +61,7 @@ section {
 }
 
 
-@media (max-width : 370px) {
+@media (max-width : 320px) {
     section {
         padding: 1em;
     }
