@@ -1,0 +1,58 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-42efff52.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-b6ec849a.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-471f6ee3.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6ec849a.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-e740c347.css"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-b2b07bce.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6ec849a.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-218add8b.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-b6ec849a.js"
+    ],
+    "assets": [
+      "assets/logo-dbc8cb70.png",
+      "assets/goods-8da83767.jpg",
+      "assets/infosys-dac67d3a.jpg",
+      "assets/unimelb-82636e0a.png",
+      "assets/sjcet-dca9eb83.png",
+      "assets/hackerrank-74a8489c.png",
+      "assets/linked-in-522c2c9b.png",
+      "assets/salesforce-0c6a030a.jpg"
+    ]
+  },
+  "_index-b6ec849a.js": {
+    "file": "chunks/index-b6ec849a.js"
+  }
+}
