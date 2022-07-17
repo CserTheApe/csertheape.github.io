@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-42efff52.js",
+    "file": "start-52609dc4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
       "_index-b6ec849a.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-e740c347.css"
+      "assets/pages/__layout.svelte-e316f7e1.css"
     ]
   },
   "src/routes/__error.svelte": {
@@ -34,7 +34,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-218add8b.js",
+    "file": "pages/index.svelte-77397fc8.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -48,8 +48,10 @@
       "assets/unimelb-82636e0a.png",
       "assets/sjcet-dca9eb83.png",
       "assets/hackerrank-74a8489c.png",
-      "assets/linked-in-522c2c9b.png",
-      "assets/salesforce-0c6a030a.jpg"
+      "assets/linked-9d22dc07.png",
+      "assets/salesforce-05adae8a.png",
+      "assets/duolingo-e5a88258.png",
+      "assets/khan-a1cd0e60.png"
     ]
   },
   "_index-b6ec849a.js": {
