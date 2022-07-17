@@ -38,7 +38,7 @@
 
 <Container alternate>
 	<h2 class="pb-[64px]">Profiles</h2>
-	<div class="flex flex-wrap gap-[24px]">
+	<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-[24px]">
 		{#each profiles as profile}
 			<ProfileCard {profile} />
 		{/each}

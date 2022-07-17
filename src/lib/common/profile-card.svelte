@@ -4,7 +4,7 @@
 
 <a href={profile.link ?? 'javascript:void(0);'} target="_blank">
 	<div
-		class="rounded-[8px] border-[2px] overflow-hidden border-transparent hover:border-primary w-[152px] h-[152px] md:w-[196px] md:h-[196px] relative text-center group"
+		class="rounded-[8px] border-[2px] overflow-hidden border-transparent hover:border-primary w-full aspect-square relative text-center group"
 	>
 		<img
 			class="w-full h-full group-hover:scale-110 z-0 absolute"
