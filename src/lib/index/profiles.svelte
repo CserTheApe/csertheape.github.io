@@ -6,6 +6,7 @@
 	import salesforceLogo from '$lib/assets/profiles/salesforce.png';
 	import duolingoLogo from '$lib/assets/profiles/duolingo.png';
 	import khanLogo from '$lib/assets/profiles/khan.png';
+	import gdevLogo from '$lib/assets/profiles/gdev.png';
 
 	let profiles = [
 		{
@@ -14,19 +15,24 @@
 			link: 'https://www.linkedin.com/in/josin-abraham-31b3a6118/'
 		},
 		{
+			name: 'Google Developers',
+			logo: gdevLogo,
+			link: 'https://g.dev/CserTheApe'
+		},
+		{
 			name: 'Hackerrank',
 			logo: hackerrankLogo,
 			link: 'https://www.hackerrank.com/CserTheApe'
 		},
 		{
-			name: 'Duolingo',
-			logo: duolingoLogo,
-			link: 'https://www.duolingo.com/profile/josin.abraham'
-		},
-		{
 			name: 'Khan Academy',
 			logo: khanLogo,
 			link: 'https://www.khanacademy.org/profile/CserTheApe/'
+		},
+		{
+			name: 'Duolingo',
+			logo: duolingoLogo,
+			link: 'https://www.duolingo.com/profile/josin.abraham'
 		},
 		{
 			name: 'Salesforce',
