@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-52609dc4.js",
+    "file": "start-2b4ed701.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -34,7 +34,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-77397fc8.js",
+    "file": "pages/index.svelte-a8de7d2a.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -51,7 +51,8 @@
       "assets/linked-9d22dc07.png",
       "assets/salesforce-05adae8a.png",
       "assets/duolingo-e5a88258.png",
-      "assets/khan-a1cd0e60.png"
+      "assets/khan-a1cd0e60.png",
+      "assets/gdev-c31c787d.png"
     ]
   },
   "_index-b6ec849a.js": {
