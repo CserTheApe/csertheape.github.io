@@ -7,6 +7,7 @@
 	import duolingoLogo from '$lib/assets/profiles/duolingo.png';
 	import khanLogo from '$lib/assets/profiles/khan.png';
 	import gdevLogo from '$lib/assets/profiles/gdev.png';
+	import kaggleLogo from '$lib/assets/profiles/kaggle.png';
 
 	let profiles = [
 		{
@@ -18,6 +19,11 @@
 			name: 'Google Developers',
 			logo: gdevLogo,
 			link: 'https://g.dev/CserTheApe'
+		},
+		{
+			name: 'Kaggle',
+			logo: kaggleLogo,
+			link: 'https://www.kaggle.com/csertheape'
 		},
 		{
 			name: 'Hackerrank',
