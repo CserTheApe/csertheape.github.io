@@ -1,7 +1,13 @@
 import adapter from '@sveltejs/adapter-auto';
+import { sveltePreprocess } from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	preprocess: sveltePreprocess({
+		scss: {
+			prependData: `@use './src/lib/style.scss' as *;`
+		}
+	}),
 	compilerOptions: {
 		// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
